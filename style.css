@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "Arial";
+    line-height: 25px;
+}
+
+.container {
+    width: 250px;
+}
+
+.property:hover {
+    background-color: white;
+}
+
+.margin {
+    width: 250px;
+    height: 250px;
+    background-color: #f9cc9d;
+    border: 1px dashed black;
+    margin: 0;
+}
+
+.border {
+    width: 220px;
+    height: 200px;
+    background-color: #fddd9b;
+    border: 1px solid black;
+}
+
+.padding {
+    width: 190px;
+    height: 150px;
+    border: 1px dashed #808080;
+    background-color: #c3d08b;
+}
+
+.content {
+    width: 160px;
+    height: 100px;
+    background-color: #8cb6c0;
+    border: 1px solid #808080;
+    text-align: center;
+    line-height: 100px;
+}
+
+.property {
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+.property:first-child {
+    /margin: 50px; /* прикольный эффект */
+}
